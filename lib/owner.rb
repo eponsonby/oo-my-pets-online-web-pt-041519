@@ -80,11 +80,15 @@ class Owner
     end
     cats_array.clear
     dogs_array = self.pets[:dogs]
+    dogs_array.collect do |dog|
+      dog.mood = "nervous"
+    end
     dogs_array.clear
     fishes_array = self.pets[:fishes]
+    fishes_array.collect do |fish|
+      fish.mood = "nervous"
+    end
     fishes_array.clear
-    
-    
   end
       
   
