@@ -90,6 +90,10 @@ class Owner
     end
     fishes_array.clear
   end
+  
+  def list_pets
+    return "I have #{self.pets[:fish].length} fish, #{self.pets[:dogs].length}
+  end
       
   
 end
