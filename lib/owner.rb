@@ -80,6 +80,8 @@ class Owner
     dogs_array.clear
     fishes_array = self.pets[:fishes]
     fishes_array.clear
+    
+    
   end
       
   
