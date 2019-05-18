@@ -92,7 +92,7 @@ class Owner
   end
   
   def list_pets
-    return "I have #{self.pets[:fish].length} fish, #{self.pets[:dogs].length} dog(s), and #{self.pets[:cats].length} cat(s)."
+    return "I have #{self.pets[:fishes].length} fish, #{self.pets[:dogs].length} dog(s), and #{self.pets[:cats].length} cat(s)."
   end
       
   
