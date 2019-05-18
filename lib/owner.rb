@@ -75,6 +75,9 @@ class Owner
   
   def sell_pets
     cats_array = self.pets[:cats]
+    cats_array.collect do |cat|
+      cat.mood = "nervous"
+    end
     cats_array.clear
     dogs_array = self.pets[:dogs]
     dogs_array.clear
